@@ -2,6 +2,8 @@ import "./globals.css";
 import Navbar from "../components/ui/Navbar";
 import Sidebar from "../components/ui/Sidebar";
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -14,7 +16,7 @@ export default function RootLayout({ children }) {
           <Sidebar />
 
           <main className="ml-[260px] mt-16 p-8 w-full">
-            {children}
+            
           </main>
         </div>
       </body>
